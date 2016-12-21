@@ -243,6 +243,52 @@ body {
     display: none;
 }
 
+.footer {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+
+    margin-left: -126px;
+}
+
+.social {
+    display: inline-block;
+
+    height: 30px;
+    width: 30px;
+
+    margin-right: 15px;
+}
+
+.facebook {
+    background-image: url(../images/facebook.png);
+    background-size: 100% 100%;
+}
+
+.twitter {
+    background-image: url(../images/twitter.png);
+    background-size: 100% 100%;
+
+    width: 37px;
+}
+
+.soundcloud {
+    background-image: url(../images/soundcloud.png);
+    background-size: 100% 100%;
+
+    width: 66px;
+}
+
+.instagram {
+    background-image: url(../images/instagram.png);
+    background-size: 100% 100%;
+}
+
+.contact {
+    background-image: url(../images/contact.png);
+    background-size: 100% 100%;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

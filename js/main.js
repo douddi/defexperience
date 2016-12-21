@@ -1,6 +1,7 @@
 $('.online-button').click(function () {
   $('.online-button').addClass('to-opacity-0');
   $('.offline-button').addClass('to-opacity-0');
+  $('.footer').addClass('to-opacity-0');
   $('body').addClass('to-overflow-auto');
 
   $('.sun-popup').addClass('opened-popup');
@@ -10,6 +11,7 @@ $('.online-button').click(function () {
 $('.offline-button').click(function () {
   $('.online-button').addClass('to-opacity-0');
   $('.offline-button').addClass('to-opacity-0');
+  $('.footer').addClass('to-opacity-0');
   $('body').addClass('to-overflow-auto');
 
   $('.sun-popup').addClass('opened-popup');
