@@ -98,6 +98,8 @@ textarea {
    ========================================================================== */
 
 body {
+    overflow-x: hidden;
+
     height: 100%;
     width: 100%;
     margin: 0;
@@ -230,7 +232,7 @@ body {
 
 #password-field {
     color: #fff;
-    font-size: 32px;
+    font-size: 22px;
     border: 0;
     background: transparent;
     -webkit-appearance: none;
@@ -326,6 +328,10 @@ body {
 
     .online-popup {
         overflow-y: scroll;
+    }
+
+    #password-field {
+        font-size: 32px;
     }
 }
 
