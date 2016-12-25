@@ -123,6 +123,8 @@ body {
 }
 
 .online-button {
+    display: none;
+    
     position: absolute;
     left: -25px;
     top: 190px;
@@ -152,6 +154,8 @@ body {
 }
 
 .offline-button {
+    display: none;
+
     margin-right: -25px;
 
     background: url(../images/offline_button.png) no-repeat;
@@ -305,6 +309,8 @@ body {
     }
 
     .online-button {
+        display: block;
+
         left: 80px;
         top: 45%;
 
@@ -318,6 +324,8 @@ body {
     }
 
     .offline-button {
+        display: block;
+
         margin-right: 0px;
 
         height: 217px;
