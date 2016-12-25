@@ -97,11 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-html, body {
-    height: 100%;
-    overflow: hidden;
-}
-
 body {
     height: 100%;
     width: 100%;
@@ -293,6 +288,11 @@ body {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
+    html, body {
+        height: 100%;
+        overflow: hidden;
+    }
+    
     .logo {
         height: 102px;
         width: 439px;
