@@ -202,7 +202,6 @@ body {
 
     opacity: 0;
     display: none;
-    overflow-y: scroll;
     transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -313,6 +312,10 @@ body {
         
         height: 217px;
         width: 296px;
+    }
+
+    .online-popup {
+        overflow-y: scroll;
     }
 }
 
