@@ -97,10 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.wrapper {
-    overflow-x: hidden;
-}
-
 body {
     height: 100%;
     width: 100%;
@@ -230,7 +226,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    width: 420px;
 }
 
 #password-field {
