@@ -20,7 +20,7 @@ $('.offline-button').click(function () {
 
 $('#password-field').keypress(function(e) {
     if(e.which == 13) {
-    	if($('#password-field').val() == 'defexp') {
+    	if($('#password-field').val() == 'creativity') {
         	$('.password-wrapper').addClass('to-display-none');
         	$('.private').addClass('to-opacity-1');
     	} else {
